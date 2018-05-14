@@ -1,0 +1,6 @@
+#!/bin/sh
+exec 2>&1
+
+export PORT={{cfg.port}}
+cd {{pkg.svc_var_path}}
+exec node dist
