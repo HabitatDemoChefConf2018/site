@@ -31,7 +31,7 @@ initializeDb(db => {
 	// api router
 	app.use('/api', api({ config, db }));
 	
-	const server = app.server.listen(process.env.PORT || config.port, () => {
+	app.server.listen(process.env.PORT || process.argv[2] || config.port, () => {
 		console.log(`Started on port ${app.server.address().port}`);
 	});
 });

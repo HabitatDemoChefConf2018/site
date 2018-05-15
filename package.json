@@ -1,7 +1,7 @@
 {
   "name": "chefconf18-site-agent",
   "version": "0.0.1",
-  "description": "Basic site agent for demo",
+  "description": "ChefCOnf2018 site demo",
   "main": "dist",
   "scripts": {
     "dev": "nodemon -w src --exec \"babel-node src\"",
