@@ -1,6 +1,6 @@
 {
   "name": "chefconf18-site-agent",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "ChefCOnf2018 site demo",
   "main": "dist",
   "scripts": {
